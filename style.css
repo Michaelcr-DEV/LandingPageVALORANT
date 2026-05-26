@@ -1,0 +1,88 @@
+* {
+    text-align: center;
+}
+
+.cabecera {
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.cabecera h1:hover {
+    color: red;
+}
+
+.desafiaLimites {
+    text-align: center;
+    padding-top: 300px;
+    background-image: url('./image/b9f3efa9355803cc44e4c59d3f4437cab192bec3-5120x1616.avif');
+    color: white;
+}
+
+.desafiaLimites p {
+    font-size: 30px;
+}
+
+#footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    background-color: black;
+}
+
+#footer a {
+    text-decoration: none;
+    color: cyan;
+    border: 2px solid cyan;
+    margin: auto;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#footer a:hover {
+    color: orange;
+    background-color: cyan;
+    color: black;
+
+    box-shadow:
+        0 0 5px cyan,
+        0 0 10px cyan,
+        0 0 20px cyan,
+        0 0 40px cyan;
+
+
+}
+
+.mapas {
+    padding: 300px;
+    margin: auto;
+    border: solid;
+    width: 100%;
+}
+
+.mapas img {
+    max-width: fit-content;
+    border-radius: 100px;
+    margin: 100px;
+}
+
+.mapas button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: red;
+    border: none;
+}
+
+.mapas button:hover {
+    color: red;
+    background-color: black;
+    color: white;
+    border: none;
+}
